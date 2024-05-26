@@ -1,0 +1,11 @@
+a="1"
+b="2"
+print(a+b)
+print(int(a)+int(b))
+c="min"
+#print(int(c))
+number=7
+print("hello"+str(number))
+d=2.3
+e=1
+print(d+e)
