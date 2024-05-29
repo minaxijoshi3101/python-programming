@@ -55,5 +55,3 @@ print(str6.isprintable())
 
 print(str6.istitle())
 
-f = open("hello.py",'r')
-print(f)
