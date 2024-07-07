@@ -55,3 +55,6 @@ print(str6.isprintable())
 
 print(str6.istitle())
 
+str="Hi \'Minaxi\'"
+print(str)
+
