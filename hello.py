@@ -1,37 +1,24 @@
-print ("Hello, world")
-print (8+8)
-print("******your poem, here******")
-'''
-Please dont remove this line
-Author: Minaxi Joshi
-100days of code
-'''
-"""
-Please dont remove this line
-Author: Minaxi Joshi
-100days of code
-"""
+from math import factorial
+from unittest import result
 
-a = complex(6,2)
-e = complex(8,2)
-#text data- string
-b="minaxi"
-c = True
-d = None
-print("Hello")
-print(type(a))
-print(type(b))
-print(type(c))
-print(type(d))
-f = a+e
-print(f)
 
-list1 = [1,2,"abc",['a','b'],["banana"]]
-print (list1[3][1])
+""" def fact(num):
+    print('finding factorail of ',num)
+    if num==0:
+        result=1
+    else:
+        result=num*fact(num-1)
+    print("factorial of {} is {} ".format(num, result))
+    return result
 
-print(18+6)
-print(18-6)
-print(18*6)
-print(18/6)
-print(18//6)
-print(18%6)
+print(fact(5)) """
+
+global fact
+def factorial(num,fact=1):
+    while(num>0):
+        fact=fact*(num)
+        num=num-1
+    return fact
+
+print(factorial(5))
+
