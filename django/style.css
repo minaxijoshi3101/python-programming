@@ -2,3 +2,11 @@ div {
   color: blue;
   size: medium;
 }
+span {
+  color: orange;
+}
+
+img {
+  height: 100;
+  width: 300;
+}
