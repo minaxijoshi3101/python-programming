@@ -14,3 +14,10 @@ if(key in d):
 else:
     print("key is not available")
 #invalid --> d2={1,2,3 : 'a','b','c'}
+
+"""  if option.lower() == "yes":
+            option="yes"
+            break
+        if option.lower() == "no":
+            option="no"
+            break """
