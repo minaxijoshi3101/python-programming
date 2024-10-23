@@ -10,3 +10,6 @@ print(l2)
 l2[1]=60
 print(l1)
 print(l2)
+#tuple
+t=(10,20,30,40,'minaxi',1+3j,True)
+print(t)
