@@ -1,12 +1,12 @@
-a=258
-b=258
-print(id(a))
-print(id(b))
-print(id(a)==id(b))
-print(a is b)
-
-x=10.0
-y=10.0
-print(x is y)
-
-p1=10+20j
+l1=[10,20,30,40]
+l2=l1
+print(l1)
+print(l2)
+print(id(l1))
+print(id(l2))
+l1[0]=50
+print(l1)
+print(l2)
+l2[1]=60
+print(l1)
+print(l2)
