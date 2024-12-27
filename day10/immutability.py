@@ -13,3 +13,7 @@ print(l2)
 #tuple
 t=(10,20,30,40,'minaxi',1+3j,True)
 print(t)
+print(type(t))
+
+t1=(2)
+print(type(t1))
