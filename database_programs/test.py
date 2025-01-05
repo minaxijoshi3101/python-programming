@@ -1,6 +1,6 @@
 import pymysql
 l=[]
-con=pymysql.connect(host='192.168.18.2',port=3306,database='employeedb',user='root',password='root')
+con=pymysql.connect(host='192.168.18.7',port=3306,database='employeedb',user='root',password='root')
 if con is not None:
     print('Connected successfully.')
 crsr=con.cursor()
@@ -26,4 +26,8 @@ for row in data:
 #con.commit()
 #print("Records inserted successfully")
 crsr.close()
-con.close()
+#Permamnet storage area:
+#1. files - to store small amount of data
+#2. database
+#3. bigdata technologies -  hadoop
+#4. Cloud
